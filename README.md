@@ -7,3 +7,5 @@ My Core, Powered Up
 Being Awesome Mods 24/7
 
 Contact Me At wolfuscraftforminecraft@gmail.com
+
+Releases Are At https://github.com/Atmatm6/Atmatm6_Mods/releases
