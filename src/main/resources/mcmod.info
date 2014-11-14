@@ -1,14 +1,14 @@
 [
 {
-  "modid": "PUP + Wutysmc",
+  "modid": "PUP",
   "name": "Powered Up And What Is Minecraft",
   "description": "A mod based off of Thermal Expansion and a mod changing half as much as Gregtech",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "http://wolfuscraft-com.webs.com/",
+  "url": "",
   "updateUrl": "",
   "authorList": ["Atmatm6"],
-  "credits": "Team Cofh for making Thermal Expansion, And Direwolf20, for making awesome videos showing all sorts of mod integration / Pretty Much Nobody...",
+  "credits": "Team Cofh for making Thermal Expansion",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

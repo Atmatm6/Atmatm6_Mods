@@ -12,12 +12,13 @@ buildscript {
     }
     dependencies {
         classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT'
+            compile "mcp.mobius.jabba:Jabba:1.1.4_1.7.10"
     }
 }
 
 apply plugin: 'forge'
 
-version = "1.0"
+version = "0.1 pa"
 group= "com.Atmatm6" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "modid"
 
