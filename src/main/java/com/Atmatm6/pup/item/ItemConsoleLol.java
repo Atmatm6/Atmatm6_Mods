@@ -5,5 +5,10 @@ public class ItemConsoleLol extends ItemPup{
     {
         super();
         this.setUnlocalizedName("Lol To Console");
+        this.onItemRightClick();
+    }
+
+    private void onItemRightClick() {
+
     }
 }

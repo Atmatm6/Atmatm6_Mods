@@ -12,20 +12,15 @@ buildscript {
     }
     dependencies {
         classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT'
-            compile "mcp.mobius.jabba:Jabba:1.1.4_1.7.10"
     }
 }
 
 apply plugin: 'forge'
 
-version = "0.1 pa"
-group= "com.Atmatm6" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "modid"
-
-minecraft {
+version = "0.1b pa"
+group= "com.Atmatm6.whatysmc" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
     version = "1.7.10-10.13.2.1236"
     runDir = "eclipse"
-}
 
 dependencies {
     // you may put jars on which you depend on in ./libs
