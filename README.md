@@ -9,3 +9,5 @@ Being Awesome Mods 24/7
 Contact Me At wolfuscraftforminecraft@gmail.com
 
 Releases Are At https://github.com/Atmatm6/Atmatm6_Mods/releases
+
+Issues can be posted at https://github.com/Atmatm6/Atmatm6_Mods/issues
