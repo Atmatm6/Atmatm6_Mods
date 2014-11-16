@@ -1,0 +1,16 @@
+[
+{
+  "modid": "CMod",
+  "name": "Atmatm6's Coremod",
+  "description": "A mod ",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Atmatm6"],
+  "credits": "Team Cofh for making Thermal Expansion",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
