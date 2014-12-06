@@ -10,7 +10,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = PupLibs.MODID, name = PupLibs.MODNAME, version = PupLibs.VERSION,dependencies = "required-after:CMod")
+@Mod(modid = PupLibs.MODID, name = PupLibs.MODNAME, version = PupLibs.VERSION,dependencies = "required-after:AtmCmod")
 public class PoweredUp{
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {

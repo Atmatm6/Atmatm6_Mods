@@ -193,5 +193,17 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
+  <component name="libraryTable">
+    <library name="API">
+      <CLASSES>
+        <root url="file://$PROJECT_DIR$/GC-API" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$PROJECT_DIR$/GC-API/src" />
+        <root url="file://$PROJECT_DIR$/GC-API/src" />
+      </SOURCES>
+    </library>
+  </component>
 </project>
 
