@@ -3,7 +3,6 @@
  */
 package com.Atmatm6.pup;
 
-import com.Atmatm6.coremod.init.ModItemsPuP;
 import com.Atmatm6.coremod.libraries.PupLibs;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -14,7 +13,6 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 public class PoweredUp{
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
-        ModItemsPuP.init();
     }
 
     @Mod.EventHandler

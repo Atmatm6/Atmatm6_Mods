@@ -3,6 +3,7 @@ package com.Atmatm6.pup.item;
 import com.Atmatm6.coremod.libraries.PupLibs;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
@@ -24,10 +25,10 @@ public class ItemPup extends Item{
         return String.format("items.%s%s", PupLibs.MODID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
     }
 
-    @Override
     @SideOnly(Side.CLIENT)
     public void registerIcons()
     {
+        IIconRegister iconRegister = null;
         itemIcon = iconRegister.registerIcon(this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1));
     }
 
