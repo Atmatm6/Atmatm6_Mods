@@ -7,11 +7,17 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/build" />
+      <excludeFolder url="file://$MODULE_DIR$/eclipse/mods/Galacticraft-Planets-Dev-BETA-1.7-3.0.1.8" />
+      <excludeFolder url="file://$MODULE_DIR$/eclipse/mods/MicdoodleCore-Dev-BETA-1.7-3.0.1.8" />
+      <excludeFolder url="file://$MODULE_DIR$/src/main/java/com/Atmatm6/spacexpansion" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library" exported="">
       <library>
+        <ANNOTATIONS>
+          <root url="file://$MODULE_DIR$/GC-API/eh" />
+        </ANNOTATIONS>
         <CLASSES>
           <root url="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1236/forgeSrc-1.7.10-10.13.2.1236.jar!/" />
         </CLASSES>
@@ -663,7 +669,5 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="API" level="project" />
   </component>
 </module>
-

@@ -14,6 +14,19 @@
       <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
       </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="github-updatesite" />
+        <module name="org.eclipse.egit.github.core" />
+        <module name="org.eclipse.egit.github.core.tests" />
+        <module name="org.eclipse.mylyn.github.core" />
+        <module name="org.eclipse.mylyn.github.doc" />
+        <module name="org.eclipse.mylyn.github.feature" />
+        <module name="org.eclipse.mylyn.github.ui" />
+      </profile>
     </annotationProcessing>
   </component>
   <component name="CopyrightManager" default="" />
@@ -52,6 +65,13 @@
     <option name="HEAP_SIZE" />
     <option name="LOCALE" />
     <option name="OPEN_IN_BROWSER" value="true" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../egit-github/pom.xml" />
+      </list>
+    </option>
   </component>
   <component name="Palette2">
     <group name="Swing">
@@ -184,6 +204,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Atmatm6_Mods.iml" filepath="$PROJECT_DIR$/Atmatm6_Mods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../egit-github/github-parent.iml" filepath="$PROJECT_DIR$/../egit-github/github-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../egit-github/github-updatesite.iml" filepath="$PROJECT_DIR$/../egit-github/github-updatesite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../egit-github/org.eclipse.egit.github.core.iml" filepath="$PROJECT_DIR$/../egit-github/org.eclipse.egit.github.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../egit-github/org.eclipse.egit.github.core.tests.iml" filepath="$PROJECT_DIR$/../egit-github/org.eclipse.egit.github.core.tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../egit-github/org.eclipse.mylyn.github.core.iml" filepath="$PROJECT_DIR$/../egit-github/org.eclipse.mylyn.github.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../egit-github/org.eclipse.mylyn.github.doc.iml" filepath="$PROJECT_DIR$/../egit-github/org.eclipse.mylyn.github.doc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../egit-github/org.eclipse.mylyn.github.feature.iml" filepath="$PROJECT_DIR$/../egit-github/org.eclipse.mylyn.github.feature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../egit-github/org.eclipse.mylyn.github.ui.iml" filepath="$PROJECT_DIR$/../egit-github/org.eclipse.mylyn.github.ui.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
@@ -194,16 +222,9 @@
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../egit-github" vcs="Git" />
   </component>
-  <component name="libraryTable">
-    <library name="API">
-      <CLASSES>
-        <root url="file://$PROJECT_DIR$/GC-API" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES>
-        <root url="file://$PROJECT_DIR$/GC-API/src" />
-      </SOURCES>
-    </library>
+  <component name="uidesigner-configuration">
+    <option name="INSTRUMENT_CLASSES" value="false" />
   </component>
 </project>

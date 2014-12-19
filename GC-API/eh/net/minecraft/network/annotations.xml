@@ -1,0 +1,10 @@
+<root>
+  <item name='net.minecraft.network.EnumConnectionState field_150761_f'>
+    <annotation name='java.lang.annotation.Deprecated'/>
+    <annotation name='org.jetbrains.annotations.NotNull'/>
+  </item>
+  <item name='net.minecraft.network.EnumConnectionState field_150770_i'>
+    <annotation name='java.lang.annotation.Deprecated'/>
+    <annotation name='org.jetbrains.annotations.NotNull'/>
+  </item>
+</root>
