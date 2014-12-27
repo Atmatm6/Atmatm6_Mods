@@ -7,4 +7,5 @@ public abstract class ClientProxyClass extends CommonProxyClass {
 //        RenderingRegistry.registerEntityRenderingHandler(EntityGiantBlock.class, new RenderGiantBlock(new GiantBlockWTF(), 0.5F));
 //    }
 //    EntityRegistry.registerGlobalEntityID(EntityGiantBlock "GiantBlockWTF",3437265 ,3515848,12102)
+
 }

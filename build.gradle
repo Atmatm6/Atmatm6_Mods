@@ -12,13 +12,14 @@ buildscript {
     }
     dependencies {
         classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT'
+        classpath 'org.eclipse.mylyn.github:github-parent:3.6.0-SNAPSHOT'
     }
 }
 
 apply plugin: 'forge'
 
-version = "0.1b pa"
-group= "com.Atmatm6.whatysmc" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+version = "specialpaupdate"
+group= "com.Atmatm6.coremod" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
     version = "1.7.10-10.13.2.1236"
     runDir = "eclipse"
 

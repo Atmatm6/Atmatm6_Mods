@@ -9,6 +9,7 @@
       <excludeFolder url="file://$MODULE_DIR$/build" />
       <excludeFolder url="file://$MODULE_DIR$/eclipse/mods/Galacticraft-Planets-Dev-BETA-1.7-3.0.1.8" />
       <excludeFolder url="file://$MODULE_DIR$/eclipse/mods/MicdoodleCore-Dev-BETA-1.7-3.0.1.8" />
+      <excludeFolder url="file://$MODULE_DIR$/src/main/java/com/Atmatm6/coremod/proxy" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/com/Atmatm6/spacexpansion" />
     </content>
     <orderEntry type="inheritedJdk" />

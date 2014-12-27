@@ -7,6 +7,8 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(modid = CmodLibs.MODID, name = CmodLibs.MODNAME, version = CmodLibs.Version)
 public class Cmod {
+    public static final String TwitModid = "Twittmc";
+    public static final String MoModids = "MoBeds";
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
         ModItemsCore.init();

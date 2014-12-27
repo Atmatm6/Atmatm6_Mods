@@ -3,16 +3,84 @@
  http://mcp.ocean-labs.de/   
  Searge, ProfMobius, Fesh0r, 
  R4wk, ZeuX, IngisKahn, bspkrs
- MCP Data version : unknown
-****************************
-:ideaModule
-Download https://libraries.minecraft.net/net/minecraft/launchwrapper/1.11/launchwrapper-1.11-sources.jar
-Download http://repo1.maven.org/maven2/org/ow2/asm/asm-debug-all/5.0.3/asm-debug-all-5.0.3-sources.jar
-Download http://repo1.maven.org/maven2/org/ow2/asm/asm-debug-all/5.0.3/asm-debug-all-5.0.3-javadoc.jar
-:ideaProject
-:ideaWorkspace
-:idea
+Failed to notify ProjectEvaluationListener.afterEvaluate(), but primary configuration failure takes precedence.
+org.gradle.api.ProjectConfigurationException: You must set the Minecraft Version!
+	at net.minecraftforge.gradle.user.patch.UserPatchExtension.getApiVersion(UserPatchExtension.java:62)
+	at net.minecraftforge.gradle.user.patch.UserPatchExtension_Decorated.getApiVersion(Unknown Source)
+	at net.minecraftforge.gradle.user.patch.UserPatchBasePlugin.getApiVersion(UserPatchBasePlugin.java:325)
+	at net.minecraftforge.gradle.user.patch.UserPatchBasePlugin.getApiVersion(UserPatchBasePlugin.java:47)
+	at net.minecraftforge.gradle.user.UserBasePlugin.resolve(UserBasePlugin.java:254)
+	at net.minecraftforge.gradle.user.patch.UserPatchBasePlugin.resolve(UserPatchBasePlugin.java:421)
+	at net.minecraftforge.gradle.user.patch.UserPatchBasePlugin.resolve(UserPatchBasePlugin.java:47)
+	at net.minecraftforge.gradle.delayed.DelayedBase.resolve(DelayedBase.java:84)
+	at net.minecraftforge.gradle.delayed.DelayedString.resolveDelayed(DelayedString.java:22)
+	at net.minecraftforge.gradle.delayed.DelayedString.resolveDelayed(DelayedString.java:5)
+	at net.minecraftforge.gradle.delayed.DelayedBase.call(DelayedBase.java:50)
+	at net.minecraftforge.gradle.common.BasePlugin.afterEvaluate(BasePlugin.java:169)
+	at net.minecraftforge.gradle.user.UserBasePlugin.afterEvaluate(UserBasePlugin.java:912)
+	at net.minecraftforge.gradle.common.BasePlugin$2.execute(BasePlugin.java:110)
+	at net.minecraftforge.gradle.common.BasePlugin$2.execute(BasePlugin.java:106)
+	at org.gradle.listener.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:109)
+	at org.gradle.listener.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:98)
+	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:83)
+	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:31)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy13.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:470)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:79)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:31)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:128)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:105)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:85)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:81)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:29)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:50)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:127)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:56)
+Caused by: java.lang.NullPointerException
+	... 60 more
 
-BUILD SUCCESSFUL
+FAILURE: Build failed with an exception.
 
-Total time: 1 mins 5.942 secs
+* Where:
+Build file 'C:\Users\Austin\Desktop\Minecraft\Modding Workspace\Atmatm6_Mod\build.gradle' line: 23
+
+* What went wrong:
+A problem occurred evaluating root project 'Atmatm6_Mod'.
+> No such property: runDir for class: org.gradle.api.internal.project.DefaultProject_Decorated
+Possible solutions: rootDir
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 1 mins 12.051 secs
