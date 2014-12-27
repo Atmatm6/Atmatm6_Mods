@@ -7,9 +7,6 @@ import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
-/**
- * Created by Austin on 2014-11-11.
- */
 public class ItemCore extends Item {
     public ItemCore()
     {
@@ -19,13 +16,13 @@ public class ItemCore extends Item {
     @Override
     public String getUnlocalizedName()
     {
-        return String.format("items.%s%s", CmodLibs.MODID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+        return String.format("item.%s%s", CmodLibs.MODID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
     }
 
     @Override
     public String getUnlocalizedName(ItemStack itemStack)
     {
-        return String.format("items.%s%s", CmodLibs.MODID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+        return String.format("item.%s%s", CmodLibs.MODID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
     }
 
     @Override

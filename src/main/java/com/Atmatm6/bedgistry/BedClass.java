@@ -1,14 +1,15 @@
-package com.Atmatm6.mobeds.gamebedgistry;
+package com.Atmatm6.bedgistry;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockBed;
+import net.minecraft.block.BlockDirectional;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
-public class BedClass extends Block {
+public class BedClass extends BlockDirectional {
     private Object blockID;
 
     public BedClass(Material cloth, int x, int y, int z) {
