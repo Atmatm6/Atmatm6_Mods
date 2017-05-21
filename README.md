@@ -1,3 +1,10 @@
+# THIS IS DEAD. DO NOT USE THIS.
+this project is not even close to complete.
+it's probably better you don't use it.
+
+
+
+
 Atmatm6_Mods
 ============
 
